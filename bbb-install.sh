@@ -855,6 +855,8 @@ server {
   }
 }
 HERE
+      ln -s /etc/nginx/sites-available/bigbluebutton /etc/nginx/sites-enabled/
+
       systemctl restart nginx
     fi
 
